@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div">
+        <p class="number"> num</p>
+    <!-- </div>
+    <div class="dig"> -->
+        <button type="button" class="btn" onclick="Ting.play(); random();"><span></span>Next</button>
+    </div>
+    <script>
+        var Ting = new Audio("Media/Ting.mp3");
+
+        function random(){
+        document.querySelector(".number").innerHTML=Math.floor(Math.random()*100)+1;
+        }
+    </script>
+</body>
+</html>
